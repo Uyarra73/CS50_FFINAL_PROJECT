@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS50 Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5f8981117a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- -----------------Header section--------------- -->
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/caminologo2.jpg" class="logo" alt="logo">
+            <ul id="side-menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Our Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Horizon Visual Works</h1>
+            <h2>Video</h2>
+            <h2>Photography</h2>
+        </div>
+    </div>
+    <div class="home-icon">
+            <a href="#header"><i class="fa-solid fa-house"></i></a>
+    </div>
+</div>
+
+<!-- -----------------About us section--------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about_us.jpg" alt="user">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About us</h1>
+                <p>Horizon Visual Works is a highly professional video and photo producing and shooting company founded in 2005 which is fully commited to offer our clients the best service to support and promote their brands throughout the world.</p>
+                <br>
+                <h1 class="sub-title">Our Clients</h1>
+                <p>We are honored to have as our clients such prestigeous brands like:</p>
+                    <div class="clients">
+                        <div class="tab-titles">
+                            <p class="tab-links"><a href="https://www.kawasaki.com/en-us/">Kawasaki</a></p>
+                            <p class="tab-links"><a href="https://bimota.it/">Bimota</a></p>
+                        </div>
+                        <div class="tab-contents">
+                            <img src="images/kawasaki.png" alt="" class="tab-contents-img">
+                            <img src="images/bimota.png" alt="" class="tab-contents-img">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--------------------Services section------------------>
+
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">Our Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-video"></i>
+            <h2>Video creations</h2>
+            <p>Professional video shooting and producing</p>
+            <a href="#">Learn more...</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-camera-retro"></i>
+            <h2>Photo sessions</h2>
+            <p>High quality pictures for your brand.</p>
+            <a href="#">Learn more...</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-mountain-sun"></i>
+            <h2>Outdoors locations</h2>
+            <p>We search the best locations for your projects</p>
+            <a href="#">Learn more...</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!----------Our Work section------------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/meguro3.jpg" alt="work-1">
+                <p>Kawasaki Meguro</p>
+                <div class="layer">
+                    <h3>Kawasaki Meguro</h3>
+                    <p>Play this video now</p>
+                    <a href="#" id="play-video1"><i class="fa-brands fa-youtube"></i></a>
+                    <div class="video-container" id="video-container1">
+                        <div class="close-btn" id="close-btn1">&times;</div>
+                        <iframe id="youtube-video1" width="560" height="315" src="https://www.youtube.com/embed/WI5dDD5kLAA?si=qw6TyFwmDizJ7Uig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+             </div>
+            <div class="work">
+                <img src="images/ninjae1.png" alt="work-2">
+                <p>Kawasaki Ninja E1</p>
+                <div class="layer">
+                    <h3>Kawasaki Ninja E1</h3>
+                    <p>Play this video now</p>
+                    <a href="#" id="play-video2"><i class="fa-brands fa-youtube"></i></a>
+                    <div class="video-container" id="video-container2">
+                        <div class="close-btn" id="close-btn2">&times;</div>
+                        <iframe id="youtube-video2" width="560" height="315" src="https://www.youtube.com/embed/AKUnpp8-9vw?si=vYE5xBaKn2O39sTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/bimotakb4.jpg" alt="work-3">
+                <p>Bimota KB4</p>
+                <div class="layer">
+                    <h3>Bimota KB4</h3>
+                    <p>Play this video now</p>
+                    <a href="#" id="play-video3"><i class="fa-brands fa-youtube"></i></a>
+                    <div class="video-container" id="video-container3">
+                        <div class="close-btn" id="close-btn3">&times;</div>
+                        <iframe id="youtube-video3" width="560" height="315" src="https://www.youtube.com/embed/3dUV6M4ZdHI?si=PI2iMxxkccF51khm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------------------Contact us section----------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>Tel: 122344453</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="images/e_catalogue.pdf" download class="btn btn2">E-catalogue</a>
+            </div>
+            <div class="contact-right">
+                <form id="myForm"  name="submit-to-google-sheet">
+                    <input type="text" name="Name" id="input-text" placeholder="Enter your name here" required>
+                    <input type="email" name="Email" id="input-email" placeholder="Enter your email here" required>
+                    <textarea name="Message"  rows="6" id="input-message" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" id="submit-btn">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer section-->
+
+    <footer class="footer">
+        <div class="footer-column">
+            <img src="images/caminologo2.jpg" class="logo" alt="logo">
+            <br>
+            <h2>Horizon Visual Works</h2>
+        </div>
+        <div class="footer-column">
+            <h3>Our Address</h3>
+            <p>1234 Street Name, ZIP code</p>
+            <p>City Name, Country</p>
+        </div>
+        <div class="footer-column">
+            <h3>Relevant Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="images/e_catalogue.pdf" download>E-catalogue</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Follow us</h3>
+            <div class="social-icons">
+                <a href="">Facebook</a>
+                <a href="">Instagram</i></a>
+                <a href="">Linkedin</i></a>
+                <a href="">X Twitter</i></a>
+        </div>
+    </footer>
+</div>
+
+<!--Scripts-->
+
+ <script src="effects.js"></script>
+ 
+ <!--Submit form to Google sheets-->
+
+ <script>
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzkJg-KaBVI6p2iuUfLZkkTAC6lpfANbMWm5eHJoI7fF3MKBtcvGSZanKaELdBHW60N/exec"
+    const form = document.forms["submit-to-google-sheet"]
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+ <!---Header animations---->
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script>
+
+// Seleccionar los elementos h1 y h2
+
+const h1Element = document.querySelector('.header-text h1');
+const h2Elements = document.querySelectorAll('.header-text h2');
+const aElements = document.querySelectorAll('.container nav a');
+
+//  ScrollReveal initialization
+
+ScrollReveal().reveal(h1Element, {
+    duration: 2500,
+    origin: 'top',
+    distance: '50px'
+});
+
+ScrollReveal().reveal(h2Elements, {
+    duration: 2000,
+    origin: 'left',
+    distance: '50px',
+    delay: 1000,
+    interval: 500 // h2 elements timeout
+});
+
+ScrollReveal().reveal(aElements, {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '50px',
+    delay: 3000,
+    interval: 500
+});
+  </script>
+
+  <!----Video player script---->
+
+  <script>
+
+    // Video player 1
+
+    document.getElementById('play-video1').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('video-container1').style.display = 'block';
+    });
+
+    document.getElementById('close-btn1').addEventListener('click', function() {
+        document.getElementById('video-container1').style.display = 'none';
+    });
+
+    // Video player 2
+
+    document.getElementById('play-video2').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('video-container2').style.display = 'block';
+    });
+
+    document.getElementById('close-btn2').addEventListener('click', function() {
+        document.getElementById('video-container2').style.display = 'none';
+    });
+
+    // Video player 3
+
+    document.getElementById('play-video3').addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('video-container3').style.display = 'block';
+    });
+    document.getElementById('close-btn3').addEventListener('click', function() {
+        document.getElementById('video-container3').style.display = 'none';
+    });
+
+</script>
+</body>
+</html>
