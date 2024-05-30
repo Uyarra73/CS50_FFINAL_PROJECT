@@ -1,16 +1,18 @@
+// Select the side menu element
 let sideMenu = document.getElementById("side-menu");
 
-function openMenu(){
+// Function to open the side menu
+function openMenu() {
     sideMenu.style.right = "0";
 }
 
-function closeMenu(){
-    sideMenu.style.right = "-200px"
+// Function to close the side menu
+function closeMenu() {
+    sideMenu.style.right = "-200px";
 }
 
-const submitButton = document.getElementById("submit-btn")
-const formReset = document.getElementById("myForm")
+// Select the submit button element
+const submitButton = document.getElementById("submit-btn");
 
-
-
-
+// Select the form element
+const formReset = document.getElementById("myForm");
